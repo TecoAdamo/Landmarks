@@ -7,20 +7,22 @@
 
 import SwiftUI
 
+
 struct CircleImage: View {
+    var image: Image
+
+
     var body: some View {
-        Image("turtlerock")
-            .resizable()
-            .scaledToFill()
-            .frame(width: 150, height: 150)
+        image
             .clipShape(Circle())
-            .overlay{
+            .overlay {
                 Circle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
     }
 }
 
+
 #Preview {
-    CircleImage()
+    CircleImage(image: Image("turtlerock"))
 }
