@@ -22,3 +22,15 @@ Landmarks allows users to explore points of interest with images, descriptions a
 - Xcode Preview
 
 ![First Screen](https://github.com/user-attachments/assets/85b90cf9-972f-4321-9fb9-7bebd055c052)
+
+# 🖥️ Clone the repository
+
+- git clone https://github.com/YOUR-USER/landmarks-app.git
+
+# 📌 Requirements
+
+- Xcode 15+
+
+- iOS 17+
+
+- macOS with Xcode support
